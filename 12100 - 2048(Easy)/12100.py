@@ -1,8 +1,8 @@
 #BOJ 12100 2048(Easy)
 
-#import sys
+import sys
 from collections import deque
-#input = sys.stdin.readline
+input = sys.stdin.readline
 
 N = int(input())
 A = [list(map(int, input().split())) for _ in range(N)]
