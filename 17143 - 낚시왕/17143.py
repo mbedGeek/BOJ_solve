@@ -1,8 +1,8 @@
 #BOJ 17143 낚시왕
 
-#import sys
+import sys
 from collections import deque
-#input = sys.stdin.readline
+input = sys.stdin.readline
 
 #r - X좌표
 #c - Y좌표
