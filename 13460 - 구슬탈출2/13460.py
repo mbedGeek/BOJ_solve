@@ -1,8 +1,8 @@
 #BOJ 13460 구슬탈출2
 
-#import sys
+import sys
 from collections import deque
-#input = sys.stdin.readline
+input = sys.stdin.readline
 
 N, M = map(int, input().split())
 A = [list(input().strip()) for _ in range(N)]
