@@ -1,8 +1,8 @@
 #BOJ 16236 아기상어
 
-#import sys
+import sys
 from heapq import heappush, heappop
-#input = sys.stdin.readline
+input = sys.stdin.readline
 
 N = int(input())
 A = [list(map(int, input().split())) for _ in range(N)]
