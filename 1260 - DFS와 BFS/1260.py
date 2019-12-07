@@ -41,12 +41,16 @@ for _ in range(m):
         graph[child] = list()
     graph[key].append(child)
     graph[child].append(key)
-    
+   
+#DFS
 for key in graph:
     graph[key].sort(reverse=True)
 for item in dfs(graph, v):
     print(item, end=' ')
+    
 print()
+
+#BFS
 for key in graph:
     graph[key].sort()
 for item in bfs(graph, v):
