@@ -2,6 +2,7 @@
 #BOJ Version
 
 import sys
+input = sys.stdin.readline
 
 N, M, K = map(int, sys.stdin.readline().split())
 A_winter = [list(map(int, sys.stdin.readline().split())) for _ in range(N)]
