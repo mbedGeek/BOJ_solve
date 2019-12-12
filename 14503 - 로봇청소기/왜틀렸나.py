@@ -2,7 +2,7 @@
 
 import sys
 from collections import deque
-#input = sys.stdin.readline
+input = sys.stdin.readline
 
 N, M = map(int, input().split()) #N: 세로크기 / M: 가로크기
 r, c, d = map(int, input().split()) #d -> 0:북 / 1:동 / 2:남 / 3:서
