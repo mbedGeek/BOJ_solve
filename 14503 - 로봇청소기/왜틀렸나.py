@@ -1,4 +1,5 @@
 #BOJ 14503 로봇청소기
+# 틀린 이유가 무엇인가
 
 import sys
 from collections import deque
