@@ -1,4 +1,5 @@
-#BOJ 14503 로봇청소기
+# BOJ 14503 로봇청소기
+# need more optimization
 
 import sys
 input = sys.stdin.readline
